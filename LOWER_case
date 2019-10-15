@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+
+#input sentence
+sentence = input(‘Enter a sentence: ‘)
+
+#change to lowercase
+sentence = sentence.lower()
+
+#remove spaces
+sentence = sentence.replace(‘ ‘,’’)
+
+#count the length
+senLen = len(sentence)
+print(‘The sentence is %d characters long.’ % (senLen))

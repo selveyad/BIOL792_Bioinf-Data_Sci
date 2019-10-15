@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+
+#input number
+number = 112345678911234566
+
+#count the twos
+Number2 = number.count(2)
+
+#print the number of 2s
+print(‘There are %d twos in %d.’ % (Number2,number))
